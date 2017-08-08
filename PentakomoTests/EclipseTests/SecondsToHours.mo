@@ -2,7 +2,7 @@ within EclipseTests;
 
 block SecondsToHours
 import Modelica.SIunits;
-input Modelica.SIunits Ts ;
+input Modelica.SIunits Tseconds ;
 equation
-Th=Ts/60;
+Th=Tseconds/60;
 end SecondsToHours;
